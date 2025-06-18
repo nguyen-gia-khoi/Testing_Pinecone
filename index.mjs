@@ -79,12 +79,976 @@ const indexName = 'quicksart-js';
 //   { "_id": "rec55", "chunk_text": "Bệnh đục thủy tinh thể nghề nghiệp thì nên bổ sung thực phẩm giàu vitamin A, C, E (cà rốt, cam, hạt). Hạn chế thực phẩm nhiều đường, đồ chiên rán.", "category": "nutrition" },
 //   { "_id": "rec56", "chunk_text": "Bệnh giảm áp nghề nghiệp thì nên ăn thực phẩm giàu omega-3 (cá, hạt), vitamin C (trái cây). Hạn chế thực phẩm chế biến sẵn, duy trì cân nặng.", "category": "nutrition" }
 // ]
-// // // const records = [
+const records2 = [
+  
+    {
+    "_id": "dish97",
+    "chunk_text": "Bánh khọt",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish98",
+    "chunk_text": "Bánh bèo",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish99",
+    "chunk_text": "Bánh căn",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish100",
+    "chunk_text": "Bánh cuốn",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish101",
+    "chunk_text": "Bánh gối",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish102",
+    "chunk_text": "Bánh đúc nóng",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish103",
+    "chunk_text": "Bánh giò",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish104",
+    "chunk_text": "Bánh ít trần",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish105",
+    "chunk_text": "Bánh nậm",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish106",
+    "chunk_text": "Bánh lọc Huế",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish107",
+    "chunk_text": "Bánh hỏi lòng heo",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish108",
+    "chunk_text": "Bánh tráng nướng Đà Lạt",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Trứng",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish109",
+    "chunk_text": "Bánh tráng trộn",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish110",
+    "chunk_text": "Bánh tráng cuốn",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish111",
+    "chunk_text": "Bánh tằm cay",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish112",
+    "chunk_text": "Nem chua",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Chế biến sẵn",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish113",
+    "chunk_text": "Nem nướng",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish114",
+    "chunk_text": "Tré Huế",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Chế biến sẵn",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish115",
+    "chunk_text": "Chả giò (nem rán)",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish116",
+    "chunk_text": "Xôi xéo",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish117",
+    "chunk_text": "Xôi gấc",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish118",
+    "chunk_text": "Xôi vò",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish119",
+    "chunk_text": "Xôi mặn",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish120",
+    "chunk_text": "Bắp xào",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish121",
+    "chunk_text": "Khoai lang nướng",
+    "carbohydrate_type": "Hấp thụ chậm",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish122",
+    "chunk_text": "Bò bía",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish123",
+    "chunk_text": "Cá viên chiên",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish124",
+    "chunk_text": "Bánh tiêu",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish125",
+    "chunk_text": "Bánh bao chiên",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish126",
+    "chunk_text": "Chè đậu xanh",
+    "carbohydrate_type": "Hấp thụ chậm",
+    "main_protein": "Không có",
+    "preparation_method": "Món nước",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish127",
+    "chunk_text": "Chè đậu đen",
+    "carbohydrate_type": "Hấp thụ chậm",
+    "main_protein": "Không có",
+    "preparation_method": "Món nước",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish128",
+    "chunk_text": "Chè thập cẩm",
+    "carbohydrate_type": "Hấp thụ chậm",
+    "main_protein": "Không có",
+    "preparation_method": "Món nước",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish129",
+    "chunk_text": "Chè ba màu",
+    "carbohydrate_type": "Hấp thụ chậm",
+    "main_protein": "Không có",
+    "preparation_method": "Món nước",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish130",
+    "chunk_text": "Chè trôi nước",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món nước",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish131",
+    "chunk_text": "Chè bưởi",
+    "carbohydrate_type": "Hấp thụ chậm",
+    "main_protein": "Không có",
+    "preparation_method": "Món nước",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish132",
+    "chunk_text": "Chè khúc bạch",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Không có",
+    "preparation_method": "Món nước",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish133",
+    "chunk_text": "Chè sương sáo hạt lựu",
+    "carbohydrate_type": "Hấp thụ chậm",
+    "main_protein": "Không có",
+    "preparation_method": "Món nước",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish134",
+    "chunk_text": "Tàu hủ nóng",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Đậu hũ",
+    "preparation_method": "Món nước",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish135",
+    "chunk_text": "Tàu hủ đá",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Đậu hũ",
+    "preparation_method": "Món nước",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish136",
+    "chunk_text": "Sữa chua mít",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish137",
+    "chunk_text": "Sữa chua nếp cẩm",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish138",
+    "chunk_text": "Bánh chuối nướng",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish139",
+    "chunk_text": "Bánh da lợn",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish140",
+    "chunk_text": "Bánh bò",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish141",
+    "chunk_text": "Bánh đậu xanh",
+    "carbohydrate_type": "Hấp thụ chậm",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish142",
+    "chunk_text": "Rau câu dừa",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish143",
+    "chunk_text": "Kem dừa",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish144",
+    "chunk_text": "Kem chuối",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món tráng miệng"
+  },
+  {
+    "_id": "dish145",
+    "chunk_text": "Bún riêu chay",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Chay",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish146",
+    "chunk_text": "Bún Huế chay",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Chay",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish147",
+    "chunk_text": "Lẩu nấm chay",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Chay",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish148",
+    "chunk_text": "Bánh xèo chay",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Chay",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish149",
+    "chunk_text": "Cơm chay",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Chay",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish150",
+    "chunk_text": "Chả giò chay",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Chay",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish151",
+    "chunk_text": "Mì xào chay",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Chay",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish152",
+    "chunk_text": "Gỏi cuốn chay",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Chay",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish153",
+    "chunk_text": "Bún xào chay",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Chay",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish154",
+    "chunk_text": "Canh nấm rong biển",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Chay",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish155",
+    "chunk_text": "Đậu hũ chiên sả",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Đậu hũ",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish156",
+    "chunk_text": "Đậu hũ sốt cà",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Đậu hũ",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish157",
+    "chunk_text": "Nấm kho tiêu",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Chay",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish158",
+    "chunk_text": "Rau củ kho",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Chay",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish159",
+    "chunk_text": "Bún chả Hà Nội",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish160",
+    "chunk_text": "Bún thang Hà Nội",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt gà",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish161",
+    "chunk_text": "Phở Hà Nội",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt bò",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish162",
+    "chunk_text": "Bánh đa cua Hải Phòng",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish163",
+    "chunk_text": "Bánh gai Ninh Giang",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish164",
+    "chunk_text": "Cháo lòng Nam Định",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish165",
+    "chunk_text": "Bún cá rô đồng Hải Dương",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish166",
+    "chunk_text": "Bánh đúc lạc Bắc Giang",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish167",
+    "chunk_text": "Bún bò Huế",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt bò",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish168",
+    "chunk_text": "Cơm hến Huế",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish169",
+    "chunk_text": "Bánh nậm, bánh lọc Huế",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish170",
+    "chunk_text": "Nem lụi Huế",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish171",
+    "chunk_text": "Mì Quảng Đà Nẵng",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish172",
+    "chunk_text": "Bánh tráng cuốn thịt heo Đà Nẵng",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish173",
+    "chunk_text": "Cao lầu Hội An",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish174",
+    "chunk_text": "Cơm gà Hội An",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt gà",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish175",
+    "chunk_text": "Bánh căn Nha Trang",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish176",
+    "chunk_text": "Nem nướng Ninh Hòa",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish177",
+    "chunk_text": "Gỏi cá mai Bình Thuận",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish178",
+    "chunk_text": "Bánh hỏi heo quay Bình Định",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish179",
+    "chunk_text": "Bánh xèo miền Tây",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish180",
+    "chunk_text": "Lẩu mắm Cần Thơ",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish181",
+    "chunk_text": "Cá lóc nướng trui An Giang",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish182",
+    "chunk_text": "Bún nước lèo Sóc Trăng",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish183",
+    "chunk_text": "Hủ tiếu Mỹ Tho",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish184",
+    "chunk_text": "Bánh tét Trà Vinh",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt heo",
+    "preparation_method": "Chế biến sẵn",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish185",
+    "chunk_text": "Bánh pía Sóc Trăng",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Không có",
+    "preparation_method": "Món khô",
+    "savory": false,
+    "sweet": true,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish186",
+    "chunk_text": "Gỏi sầu đâu Campuchia – An Giang",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish187",
+    "chunk_text": "Canh chua bông điên điển",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish188",
+    "chunk_text": "Mắm kho",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish189",
+    "chunk_text": "Mắm ruốc",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Hải sản",
+    "preparation_method": "Chế biến sẵn",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món ăn vặt"
+  },
+  {
+    "_id": "dish190",
+    "chunk_text": "Cua rang muối",
+    "carbohydrate_type": "Không có",
+    "main_protein": "Hải sản",
+    "preparation_method": "Món khô",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish191",
+    "chunk_text": "Phở",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt bò",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  },
+  {
+    "_id": "dish192",
+    "chunk_text": "Bún bò",
+    "carbohydrate_type": "Hấp thụ nhanh",
+    "main_protein": "Thịt bò",
+    "preparation_method": "Món nước",
+    "savory": true,
+    "sweet": false,
+    "dish_type": "Món chính"
+  }
+]
 // // Upsert the records into a namespace
 const index = pc.index(indexName).namespace("disease_suggestions");
-
 // await index.upsertRecords(records);
-
+const index2 = pc.index(indexName).namespace("food_suggestions");
+// Hàm chia thành các batch nhỏ
+await index2.upsertRecords(records2);
+console.log('Records upserted successfully!');
 // // Wait for the upserted vectors to be indexed
 // await new Promise(resolve => setTimeout(resolve, 10000));
 
@@ -94,25 +1058,25 @@ const index = pc.index(indexName).namespace("disease_suggestions");
 
 
 // // Define the query
-const query = 'Tôi bị mệt tim và cơ thể bị mất sức khi vận động mạnh thì tôi nên ăn như thế nào?';
+// const query = 'Tôi bị mệt tim và cơ thể bị mất sức khi vận động mạnh thì tôi nên ăn như thế nào?';
 
-// Search the dense index
-const results = await index.searchRecords({
-  query: {
-    topK: 10,
-    inputs: { text: query },
-  },
-   rerank: {
-    model: 'bge-reranker-v2-m3',
-    topN: 3,
-    rankFields: ['chunk_text'],
-  }
-});
-// console.log(results.result.hits);
-// Print the results
-results.result.hits.forEach(hit => {
-  console.log(`id: ${hit._id}, score: ${hit._score?.toFixed(2)}, category: ${hit.fields.category}, text: ${hit.fields.chunk_text}`);
-});
+// // Search the dense index
+// const results = await index.searchRecords({
+//   query: {
+//     topK: 10,
+//     inputs: { text: query },
+//   },
+//    rerank: {
+//     model: 'bge-reranker-v2-m3',
+//     topN: 3,
+//     rankFields: ['chunk_text'],
+//   }
+// });
+// // console.log(results.result.hits);
+// // Print the results
+// results.result.hits.forEach(hit => {
+//   console.log(`id: ${hit._id}, score: ${hit._score?.toFixed(2)}, category: ${hit.fields.category}, text: ${hit.fields.chunk_text}`);
+// });
 
 // import 'dotenv/config';
 // import { Pinecone } from '@pinecone-database/pinecone';
